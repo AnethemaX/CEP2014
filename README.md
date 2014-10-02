@@ -19,3 +19,5 @@ How to edit and test:
 4) On the tab on thr left rightclick this project name and click "open in explorer"
 
 5) Do stuff normally(ie: editing, testing, yada yada.)
+
+P.S. This project is due 3 Oct 2014
