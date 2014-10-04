@@ -20,4 +20,4 @@ How to edit and test:
 
 5) Do stuff normally(ie: editing, testing, yada yada.)
 
-P.S. This project is due 3 Oct 2014
+P.S. This project is due 10 Oct 2014
