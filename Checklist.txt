@@ -1,0 +1,14 @@
+Things to do:
+
+SECTION A - AESTHETICS
+1) Change navbar highlighting (get from website)
+2) Change colour scheme so we won't be wholescale copying
+3) Add splash
+4) Add carousel (apparently that's graded and we must put it in)
+
+
+SECTION B - CONTENT (we'll just raid Ms Charmaine Chiang for this infos)
+1) Fill up home page
+2) Fill up About
+3) Fill up Announcements
+4) Fill up Achievments
