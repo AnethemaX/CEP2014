@@ -9,7 +9,7 @@
 		<!-- <link rel="stylesheet" href="css/uikit.gradient.min.css" /> -->
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="js/uikit.min.js"></script>
-        <link rel="stylesheet" href="http://getuikit.com/docs/css/docs.css" />
+        <link rel="stylesheet" href="css/app.css"/>
 	</head>
 	<body>
 	
@@ -17,14 +17,26 @@
             <div class="uk-container uk-container-center">
 				
 				<!-- This image tag is for the little logo at the top left corner of the navbar. -->
-                <a class="uk-navbar-brand uk-hidden-small" href="index.html"><img class="uk-margin uk-margin-remove" src="http://www.getuikit.com/docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
+                <a class="uk-navbar-brand uk-hidden-small" href="index.html"><img class="uk-margin uk-margin-remove" src="img/gryphon.png" width="45" height="15"> RV</a>
 
                 <ul class="uk-navbar-nav uk-hidden-small">
-                    <li><a href="http://www.getuikit.com/docs/documentation_get-started.html">Get Started</a></li>
-                    <li><a href="http://www.getuikit.com/docs/components.html">Components</a></li>
-                    <li><a href="http://www.getuikit.com/docs/addons.html">Add-ons</a></li>
-                    <li><a href="http://www.getuikit.com/docs/customizer.html">Customizer</a></li>
-                    <li><a href="http://www.getuikit.com/showcase/index.html">Showcase</a></li>
+                    <li class="uk-active"><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"><i class="uk-icon-info-circle"></i> About</a></li>
+                    <li><a href="announcements.html"><i class="uk-icon-bullhorn"></i> Announcements</a></li>
+                    <li><a href="contacts.html"><i class="uk-icon-users"></i> Contacts</a></li>
+                    <li class="uk-parent" data-uk-dropdown>
+                        <a href="achievements.html"><i class="uk-icon-trophy"></i> Achievements <i class="uk-icon-caret-down"></i></a>
+                        <div class="uk-dropdown uk-dropdown-navbar">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li><a href="achievements.html#2014">2014</a></li>
+                                <li><a href="achievements.html#2013">2013</a></li>
+                                <li><a href="achievements.html#2012">2012</a></li>
+                                <li><a href="achievements.html#2011">2011</a></li>
+                                <li><a href="achievements.html#2010">2010</a></li>
+                                <li><a href="achievements.html#2009">2009</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
 
                 <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
