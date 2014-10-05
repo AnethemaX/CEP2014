@@ -153,7 +153,7 @@
 /*   This section is for the different colours of the background      */
 
 .uk-notouch {
-    font: "Bebas Neue";
+    font-family: "Bebas Neue";
 }
 
 .tm-section .uk-heading-large { margin-bottom: 20px; }
