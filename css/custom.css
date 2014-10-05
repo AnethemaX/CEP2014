@@ -125,7 +125,7 @@
 
 /*--------------------*/
 
-.tm-middle { background: #fff; }
+.tm-middle { /*background: #fff;*/  }
 
 /* Tablet and bigger */
 @media (min-width: 768px) {
@@ -155,7 +155,7 @@ html {
 .tm-section .uk-heading-large { margin-bottom: 20px; }
 .tm-section .uk-text-large { margin-bottom: 60px; }
 
-.tm-section-color-1 { background: #2ba3d4 url("../images/bg_teaser.svg") 50% 50% no-repeat; }
+.tm-section-color-1 { background: #2ba3d4 url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=1460&h=850") 50% 50% no-repeat; }
 
 
 @media (max-width: 959px) {
