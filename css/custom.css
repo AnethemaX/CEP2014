@@ -15,6 +15,10 @@
     text-shadow: none;
 }
 
+.uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a:focus, .uk-navbar-nav>li.uk-open>a {
+    background-color: #000;
+}
+
 .tm-navbar .uk-navbar-nav > li > a {
     height: 40px;
     margin: 0;
