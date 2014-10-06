@@ -155,6 +155,10 @@
 /*   This section is for the different colours of the background      */
 
 .uk-notouch {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
     font-family: "Bebas Neue";
 }
 
