@@ -1,13 +1,13 @@
 Things to do:
 
 SECTION A - AESTHETICS
-1) Change navbar highlighting (get from website)
+1) Change navbar highlighting (get from website) [DONE]
 2) Change colour scheme so we won't be wholescale copying
-3) Add splash
+3) Add splash  [DONE]
 4) Add carousel (apparently that's graded and we must put it in)
 5) Use AngularJS and JSON data found on edmodo
-6) Change font (Bebas Neue or Helvetica/Coolvetica
-7) WE NEED 5 PAGES, 4/5 ATM
+6) Change font (Bebas Neue or Helvetica/Coolvetica) [DONE]
+7) WE NEED 5 PAGES, 4/5 ATM [DONE]
 
 
 SECTION B - CONTENT (we'll just raid Ms Charmaine Chiang for this infos)
