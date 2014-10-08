@@ -18,7 +18,7 @@
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li.uk-open > a {
-    background-color: #000000;
+    background-color: #F5F5F5;
 }
 
 .tm-navbar .uk-navbar-nav > li > a {
@@ -37,13 +37,15 @@
 .tm-navbar .uk-navbar-nav > li > a:focus,
 .tm-navbar .uk-navbar-nav > li.uk-open > a {
     border: none;
-    color: #FFF;
+    color: #333;
 }
 
 /* Active */
 .tm-navbar .uk-navbar-nav > li.uk-active > a {
     background-color: #2BA3D4;
     color: #FFF;
+    /*background-color: #FFF;
+    color: #333;*/
 }
 
 /* OnClick */
@@ -59,8 +61,8 @@
 .tm-nav > li > a:hover,
 .tm-nav > li > a:focus,
 .tm-nav > li.uk-active > a  {
-    background: #F5F5F5;
-    color: #444;
+    background: #444;
+    color: #FFF;
 }
 
 /* Sub-object: `nav-header` */
@@ -165,7 +167,7 @@ h1{
 .tm-section .uk-heading-large { margin-bottom: 20px; }
 .tm-section .uk-text-large { margin-bottom: 60px; }
 
-.tm-section-color-1 { background: #2ba3d4 url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=1460&h=850") 50% 50% no-repeat; }
+.tm-section-color-1 { background: url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=1460&h=850") 50% 50% no-repeat; }
 
 
 @media (max-width: 959px) {
