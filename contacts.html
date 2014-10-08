@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 	<head>
 		<title>Starter template</title>
 		<link rel="stylesheet" href="css/uikit.min.css" />
@@ -16,7 +16,7 @@
         <script src="js/contacts.js"></script>
         <link rel="stylesheet" href="css/app.css"/>
 	</head>
-	<body>
+	<body ng-controller="ContactsController as ctrl">
 	
 		<nav class="tm-navbar uk-navbar uk-navbar-attached">
             <div class="uk-container uk-container-center">
@@ -45,6 +45,14 @@
                 </ul>
             </div>
         </nav>
-        <div
+        <div class="list-group">
+            <header class="uk-comment-header" ng-repeat="contacts in ctrl.contacts">
+                <img class="uk-comment-avatar" src="{{ctrl.profilepic}}" width="50" height="50" alt="">
+                <h4 class="uk-comment-title">{{ctrl.name}}</h4>
+                <div class="uk-comment-meta">{{ctrl.email}}</div>
+                <div class="uk-comment-meta">Home: {{ctrl.contact.home}}</div>
+                <div class="uk-comment-meta">Mobile: {{ctrl.contact.mobile}}</div>
+            </header>
+        </div>
 	</body>
 </html>
