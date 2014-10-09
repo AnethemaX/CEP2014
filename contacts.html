@@ -45,14 +45,14 @@
                 </ul>
             </div>
         </nav>
-        <div class="list-group">
-            <header class="uk-comment-header" ng-repeat="contact in ctrl.contacts">
+        <article class="uk-comment"  ng-repeat="contact in ctrl.contacts">
+            <header class="uk-comment-header">
                 <img class="uk-comment-avatar" src="{{contact.profilepic}}" width="100" height="100" alt="">
                 <h4 class="uk-comment-title">{{contact.name}}</h4>
-                <div class="uk-comment-meta">{{contact.email}}</div>
+                <div class="uk-comment-meta">Email: {{contact.email}}</div>
                 <div class="uk-comment-meta">Home: {{contact.contact.home}}</div>
                 <div class="uk-comment-meta">Mobile: {{contact.contact.mobile}}</div>
             </header>
-        </div>
+        </article>
 	</body>
 </html>
