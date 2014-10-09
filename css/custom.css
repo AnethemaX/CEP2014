@@ -112,7 +112,9 @@
     font-size: 16px;
     line-height: 16px;
 }
-
+.uk-comment-header {
+    margin-bottom: 0px;
+}
 /*
  * Showcase Overlay
  */
