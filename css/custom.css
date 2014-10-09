@@ -97,7 +97,15 @@
 /*
  * Article
  */
-
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
 .tm-article-subtitle {
     padding-left: 6px;
     border-left: 3px solid #1FA2D6;
