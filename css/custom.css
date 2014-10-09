@@ -1,3 +1,16 @@
+/* Font face */
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*================================*/
 /*      Navbar      */
 
@@ -161,7 +174,8 @@
 }
 
 h1{
-    font-family: "Bebas Neue";
+    font-family: "bebas_neueregular";
+
 }
 
 .tm-section .uk-heading-large { margin-bottom: 20px; }
