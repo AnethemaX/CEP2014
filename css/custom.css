@@ -45,6 +45,10 @@
 
 .tm-navbar .uk-navbar-nav > li { margin-left: 20px; }
 
+.tm-navbar .uk-navbar-nav > li >a {
+    color: #FFF;
+}
+
 /* Hover */
 .tm-navbar .uk-navbar-nav > li:hover > a,
 .tm-navbar .uk-navbar-nav > li > a:focus,
