@@ -45,7 +45,7 @@
 
 .tm-navbar .uk-navbar-nav > li { margin-left: 20px; }
 
-.tm-navbar .uk-navbar-nav > li > a {
+.tm-navbar .uk-navbar-nav > li >a {
     color: #FFF;
 }
 
@@ -103,10 +103,6 @@
     border-left: 3px solid #1FA2D6;
     font-size: 16px;
     line-height: 16px;
-}
-
-.uk-comment-header {
-    margin-bottom: 0px;
 }
 
 /*
@@ -187,9 +183,21 @@ h1{
 }
 
 .tm-section .uk-heading-large { margin-bottom: 20px; }
-.tm-section .uk-text-large { margin-bottom: 60px; }
+.tm-section .uk-text-large { 
+    font-family:"bebas_neueregular";
+    font-size: 30px
 
-.tm-section-color-1 { background: url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=1460&h=850") 50% 50% no-repeat; }
+    
+}
+
+#splashtext {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-size: 45px;
+    margin-bottom: 235px;
+}
+
+.tm-section-color-1 { background: url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=2000&h=2000") 30% 70% no-repeat; }
 
 
 @media (max-width: 959px) {
