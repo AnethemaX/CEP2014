@@ -46,12 +46,12 @@
             </div>
         </nav>
         <div class="list-group">
-            <header class="uk-comment-header" ng-repeat="contacts in ctrl.contacts">
-                <img class="uk-comment-avatar" src="{{ctrl.profilepic}}" width="50" height="50" alt="">
-                <h4 class="uk-comment-title">{{ctrl.name}}</h4>
-                <div class="uk-comment-meta">{{ctrl.email}}</div>
-                <div class="uk-comment-meta">Home: {{ctrl.contact.home}}</div>
-                <div class="uk-comment-meta">Mobile: {{ctrl.contact.mobile}}</div>
+            <header class="uk-comment-header" ng-repeat="contact in ctrl.contacts">
+                <img class="uk-comment-avatar" src="{{contact.profilepic}}" width="100" height="100" alt="">
+                <h4 class="uk-comment-title">{{contact.name}}</h4>
+                <div class="uk-comment-meta">{{contact.email}}</div>
+                <div class="uk-comment-meta">Home: {{contact.contact.home}}</div>
+                <div class="uk-comment-meta">Mobile: {{contact.contact.mobile}}</div>
             </header>
         </div>
 	</body>

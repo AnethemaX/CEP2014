@@ -1,8 +1,4 @@
 (function() {
-  var app = angular.module('contacts', []);
-  app.controller('ContactsController', function(){
-    this.contacts = contacts;
-  });
   var contacts = [{
     name:"Carl",
     email:"carl@me.com",
@@ -75,4 +71,9 @@
       mobile:7654222
     }
   }];
+  var app = angular.module('app', []);
+  app.controller('ContactsController', function(){
+    var ctrl = this;
+    ctrl.contacts = contacts;
+  });
 })();
