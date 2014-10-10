@@ -203,14 +203,15 @@ h1{
     
 }
 
-#splashtext {
-    color: black;
-    -webkit-text-stroke: 1px white;
-    font-size: 45px;
-    margin-bottom: 235px;
+.tm-logo{
+    margin-top: -120px
 }
 
-.tm-section-color-1 { background: url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=2000&h=2000") 30% 70% no-repeat; }
+#splashtext {
+    margin-bottom: 150px;
+}
+
+.tm-section-color-1 { background: url("http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=2000&h=2000") 30% 50% no-repeat; }
 
 
 @media (max-width: 959px) {
