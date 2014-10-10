@@ -9,8 +9,8 @@
 		<!--<link rel="stylesheet" href="css/uikit.gradient.min.css" /> -->
 
         <link rel="stylesheet" href="css/custom.css" />
-
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 		<script src="js/uikit.min.js"></script>
         <link rel="stylesheet" href="css/app.css"/>
 	</head>
@@ -50,14 +50,54 @@
 
 
         <!--- Body First section! The splash screen! -->
-        <div class="tm-section">
+        <div class="tm-section tm-section-color-1 tm-section-colored">
             <div class="uk-container uk-container-center uk-text-center">
-                <div class="uk-slidenav-position">
-                    <img src="http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=2000&h=2000">
-                    <img class="tm-logo" src="img/random.png"  width="500" height="150"> 
-                    <a href="" class="uk-slidenav uk-slidenav-previous"></a>
-                    <a href="" class="uk-slidenav uk-slidenav-next"></a>
-                    <p class="uk-text-large" id="splashtext"></p>
+                <img class="tm-logo" src="img/random.png"  width="500" height="150"> 
+                <p class="uk-text-large" id="splashtext"></p>
+            </div>
+        </div>
+        <div class="tm-section">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="http://pressraffles.files.wordpress.com/2013/08/dsc05828.jpg?w=2000&h=2000" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1></h1>
+                                <p></p>
+                                <p><a class="btn btn-lg btn-primary" href="about.html" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1></h1>
+                                <p></p>
+                                <p><a class="btn btn-lg btn-primary" href="game.html" role="button"></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1></h1>
+                                <p></p>
+                                <p><a class="btn btn-lg btn-primary" href="game.html" role="button"></a></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
             </div>
         </div>
         <div class="tm-section tm-section-color-2 tm-section-colored">
