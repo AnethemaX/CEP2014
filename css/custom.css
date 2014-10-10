@@ -71,9 +71,9 @@
     color: #FFF;
 }
 /* Carousel */
-.item {
-    height: 720px;
-    width: 1280px;
+.carousel .item {
+  height: 500px;
+  background-color: #777;
 }
 /*
  * Nav
