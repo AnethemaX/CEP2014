@@ -12,6 +12,12 @@
 }
 
 /*================================*/
+.carousel-caption h1{
+   color: white;
+   font-size: 100px;
+   margin-bottom: 160px;
+}
+/*================================*/
 /*      Navbar      */
 
 .tm-navbar {
@@ -72,8 +78,9 @@
 }
 /* Carousel */
 .carousel .item {
-  height: 500px;
+  height: 575px;
   background-color: #777;
+  
 }
 /*
  * Nav
@@ -189,6 +196,9 @@
     .tm-sidebar .uk-panel { padding-right: 20px; }
 
 }
+/*================================*/
+
+
 
 /*================================*/
 
