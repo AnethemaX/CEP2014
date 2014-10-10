@@ -70,7 +70,11 @@
     background-color: transparent;
     color: #FFF;
 }
-
+/* Carousel */
+.item {
+    height: 720px;
+    width: 1280px;
+}
 /*
  * Nav
  */
