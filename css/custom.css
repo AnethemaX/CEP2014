@@ -94,7 +94,10 @@
     color: #222;
     font-weight: normal;
 }
-
+/* a */
+.uk-panel > h2 > a {
+    text-decoration: none;
+}
 /*
  * Nav
  */
